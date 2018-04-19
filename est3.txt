@@ -1,0 +1,59 @@
+Scope: 
+
+Watchlist: Crypto detail Screen 
+
+The Crypto detail screen shall have the following sections:
+1. Crypto Menu
+2. Crypto Value
+	Crypto Current price
+		Generic price
+	Crypto Percent change 
+		Based on selected timeframe	
+3. Crypto Statistics
+	Generic information
+4 Crypto News
+5. About Crypto
+6. Buy Button
+	The link/url shall be provided by the API
+7. Crypto chat
+	The user shall be able to chat about specific cryptocurrencies (see crypto chat below)
+8. Listed At
+	Exchange
+	Price
+	Percent change
+	Buy Button
+		The url provided via the API shall open a mobile web view, In some cases, we may also provide a link to the widget
+		
+Estimation:
+	•	Crypto Menu - will be tabs with a package (e.g. native base) - 3hr 
+	•	Crypto Value - 2hr (Crypto Percent change Based on selected timeframe – depends graphs component props )
+	•	Crypto Statistics - 1hr or less 
+	•	Crypto News - 2hr 
+	•	About Crypto - 2 to 4 hr depending upon content parsing  
+	•	Crypto chat UI only - 4hr 
+	•	Listed At - 3hr
+
+	
+Question:
+	1. Crypto News -  How many maximum rows do we need to show in one news card, What will happen if the title of the news is more then maximum row limit.
+	2. About Crypto - What will be the format of content which will be delivered by API, because content is divided into title and paragraph.
+	3. Crypto Chat -  What will be the max limit of the input box.
+	4. Crypto Chat -  This section has Input box to type in the message, but no button to send or submit, how the message will be send? 
+	5. The watch list screen has Volatility Section, Do we need to work on that?  Scope of this is not in the requirement document. We assume that it will be a re-usuable component.
+	6. Listed At - What is the purpose of 3 dots on top right corner of Listed At section.
+	7. Crypto Chat - How many message will be displayed initiately or it will be infinite scroll i.e. load new message as user scrolls down.
+	8. Crypto News - Do we need to include the scope of "More News" button. (To open new screen)
+
+
+Note: We need expected api format for following section (Input and output)
+	1. Crypto Menu
+	2. Crypto Value
+	3. Crypto Statistics
+	4. Crypto News
+	5. Listed At
+	6. Crypto chat
+	7. About Crypto
+	
+#4. Crypto Chat, i think it would be great to have small icon to post message in terms of UI/UX. It should be visibale when user start typing. Please refer skype screenshot. Most of the app has it.
+
+
